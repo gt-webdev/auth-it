@@ -1,0 +1,9 @@
+<h1>welcome</h1>
+<% if (everyauth.loggedIn) { %>
+  <p>Hello, you are <%= everyauth.userId %><br>
+  <a href='/login'>login as someone else!</a> or
+  <a href='/register'>register a new account</a></p>
+<% } else { %>
+  <p>please <a href='/register'>create an account</a> or 
+  <a href='/login'>login</a></p>
+<% } %>
