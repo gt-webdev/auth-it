@@ -1,0 +1,9 @@
+{
+  "name":"auth",
+  "version":"0.0.1",
+  "dependencies":{
+    "express":"3.x",
+    "ejs":"*",
+    "everyauth":"git://github.com/bnoguchi/everyauth.git#express3"
+  }
+}
